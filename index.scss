@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+  width: 100%;
+  font-size: 0.8rem;
+  background-color: red;
+  ul {
+    display: flex;
+    float: right;
+    width: 15%;
+    margin-right: 25px;
+    margin-top: 10px;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    height: 50px;
+    li {
+      width: fit-content;
+      height: fit-content;
+      text-align: center;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      #grid {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+#image {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  padding-top: 25vh;
+  img {
+    width: auto;
+    height: 90px;
+  }
+}
+#search {
+  display: flex;
+  justify-content: center;
+  #input {
+    margin-top: 35px;
+    width: 600px;
+    border: 1px rgb(181, 164, 164) solid;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    i {
+      color: rgb(181, 164, 164);
+    }
+    input {
+      border: none;
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
+}
+
+#buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  button {
+    border: none;
+    width: 125px;
+    height: 30px;
+    margin-right: 10px;
+  }
+}
+
+#languages{
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  ul{
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-around;
+  }
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #676666;
+}
+
+#footer1{
+  background-color: rgb(227, 227, 227);
+  height: 45px;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+#footer2{
+  background-color: rgb(227, 227, 227);
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(194, 186, 186);
+  #footer-bar1{
+    ul{
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      height: 45px;
+      align-items: center;
+      width: 500px;
+    }
+  }
+  #footer-bar2{
+    ul{
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      height: 45px;
+      align-items: center;
+      width: 250px;
+    }
+  }
+}
